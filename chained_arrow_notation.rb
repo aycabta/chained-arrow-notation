@@ -17,7 +17,6 @@ def arrow(base, exponent, arrows)
 end
 
 def chained_arrow(chains)
-p chains
   if chains[-2].kind_of?(Integer) and chains[-2] == 1
     chains.pop(2)
   elsif chains[-1].kind_of?(Integer) and chains[-1] == 1
